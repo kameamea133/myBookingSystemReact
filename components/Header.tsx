@@ -155,7 +155,7 @@ function Header() {
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center lg:mb-6">
             <a
-            href="#"
+            href="/signin"
             className="text-sm font-semibold  text-white"
             >log in <span aria-hidden="true">&rarr;</span></a>
 

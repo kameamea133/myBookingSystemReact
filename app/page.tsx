@@ -9,6 +9,15 @@ export default function Home() {
         {/* searchForm */}
         <div>hello</div>
       </section>
+
+      <section className="mx-auto max-w-7xl mt-10 p-6 bg-white rounded-t-lg">
+        <div className="pt-5">
+          <h3 className="text-xl font-bold">Trending Destinations</h3>
+          <p className="font-light">most popular choices for travellers from around the world</p>
+        </div>
+
+        <div className="flex space-x-4 py-5 overflow-x-scroll"></div>
+      </section>
     </main>
   );
 }
